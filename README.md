@@ -1,2 +1,2 @@
 # diploma
-shit
+nice place to kill time
