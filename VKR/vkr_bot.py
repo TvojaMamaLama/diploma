@@ -5,14 +5,14 @@ import vk_api
 import random
 from datetime import datetime
 
-bot = telebot.TeleBot('1085290664:AAEfMs9XwhZ1PCwcMLiYR28Kshkk_ctlERU')
+bot = telebot.TeleBot('')
 
 # socks.set_default_proxy(socks.SOCKS5, "localhost", 9150)
 # socket.socket = socks.socksocket
 
 version = 5.103
 
-vk_session = vk_api.VkApi(token='a2e5cc4b92341fcc890999df65b88f4a15dae14a12ba2ce5a83f19e28b07dd4d305890dacc093a26f1443')
+vk_session = vk_api.VkApi(token='')
 
 session_api = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
